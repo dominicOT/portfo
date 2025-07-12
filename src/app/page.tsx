@@ -136,7 +136,9 @@ export default function PortfolioPage() {
         {/* Hero Section */}
         <section id="hero" className="flex flex-col md:flex-row items-center gap-8 mb-16">
           <Avatar className="w-32 h-32 md:w-40 md:h-40 border-4 border-primary/20 shadow-lg">
-            <AvatarImage src="dominic.jpg" alt="Dominic Oladapo-Tonade" data-ai-hint="professional headshot" />
+          
+          {/* Image */}
+            <AvatarImage src="" alt="Dominic Oladapo-Tonade" data-ai-hint="professional headshot" />
             <AvatarFallback className="text-4xl bg-primary/10 text-primary">DO</AvatarFallback>
           </Avatar>
           <div className="text-center md:text-left flex-grow">
