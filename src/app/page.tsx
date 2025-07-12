@@ -209,6 +209,11 @@ export default function PortfolioPage() {
                     {projects.ai.map(p => <ProjectCard key={p.name} {...p} />)}
                   </div>
                 </TabsContent>
+                <TabsContent value="blockchain" className="mt-4">
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    {projects.blockchain.map(p => <ProjectCard key={p.name} {...p} />)}
+                  </div>
+                </TabsContent>
               </Tabs>
             </section>
           </div>
