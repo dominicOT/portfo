@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Award, Briefcase, Github, GraduationCap, Link as LinkIcon, Linkedin, Mail, MapPin, Phone, UserCheck } from "lucide-react"
 
 const contact = {
-  email: "dominic.ot@example.com",
+  email: "Not Publicly Available",
   phone: "Not Publicly Available",
   location: "Freetown, Sierra Leone",
   github: "https://www.github.com/dominicOT",
