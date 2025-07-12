@@ -61,9 +61,14 @@ const skills = [
 ];
 
 const projects = {
+  blockchain: [
+    { name: "PassRaydSwapr", url: "https://passraydswapr.vercel.app/", description: "Passkey Raydium Swapper (using LazorKit)", github: "https://github.com/justanthruser/passkey-raydium-swapper" },
+    { name: "", url: "#", description: "" },
+  ],
   ai: [
     { name: "Adrit", url: "https://adrit.dorbai.com", description: "An AI-powered application." },
     { name: "WasteWise", url: "#", description: "AI-driven solution for waste management." },
+    { name: "Perplexity-ai", url: "https://github.com/helallao/perplexity-ai", description: "Unofficial API Wrapper for Perplexity.ai + Account Generator." },
   ],
   mobile: [
     { name: "WasteWise", url: "#", description: "A mobile application promoting smart recycling and waste tracking." },
