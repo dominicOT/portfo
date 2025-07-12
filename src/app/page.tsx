@@ -62,21 +62,21 @@ const skills = [
 
 const projects = {
   ai: [
-    { name: "Adrit", url: "https://adrit.vercel.app", description: "An AI-powered application." },
+    { name: "Adrit", url: "https://adrit.dorbai.com", description: "An AI-powered application." },
     { name: "WasteWise", url: "#", description: "AI-driven solution for waste management." },
   ],
   mobile: [
     { name: "WasteWise", url: "#", description: "A mobile application promoting smart recycling and waste tracking." },
     { name: "OltraPay", url: "#", description: "A secure and user-friendly mobile payment platform." },
-    { name: "TWU", url: "#", description: "A mobile app for The Work University, facilitating student engagement." },
+    { name: "TWU", url: "#", description: "A mobile app for the Transport Workers Union, Sierra Leone." },
   ],
   websites: [
-    { name: "SUN SL", url: "#", description: "Official website for the Scaling Up Nutrition initiative in Sierra Leone." },
-    { name: "Dazzling Orbit", url: "#", description: "Corporate website for Dazzling Orbit Ltd." },
-    { name: "RCCG SL", url: "#", description: "Website for the Redeemed Christian Church of God, Sierra Leone." },
-    { name: "We Restore SL", url: "#", description: "A platform for a restoration-focused community project." },
-    { name: "Cloth Drive", url: "https://cloth-drive.web.app", description: "Web application for a charity clothing drive initiative." },
-    { name: "UniMak Workflow Innovation Hub", url: "#", description: "The digital hub for UniMak's innovation center." },
+    { name: "SUN SL", url: "https://www.sun.ovp.gov.sl/", description: "Official website for the Scaling Up Nutrition initiative in Sierra Leone." },
+    { name: "Dazzling Orbit", url: "https://dorbsl-ltd.vercel.app/", description: "Corporate website for Dazzling Orbit Ltd." },
+    { name: "RCCG SL", url: "https://rccgsl.vercel.app/", description: "Website for the Redeemed Christian Church of God, Sierra Leone." },
+    { name: "We Restore SL", url: "https://werestore-sl.org/", description: "A platform for a restoration-focused community project." },
+    { name: "Cloth Drive", url: "#", description: "Web application for a charity clothing drive initiative." },
+    { name: "UniMak Workflow Innovation Hub", url: "http://uwihsl.web.app/", description: "The digital hub for UniMak's innovation center." },
   ],
 };
 
