@@ -10,7 +10,7 @@ import { Award, Briefcase, Github, GraduationCap, Link as LinkIcon, Linkedin, Ma
 const contact = {
   email: "dominic.ot@example.com",
   phone: "Not Publicly Available",
-  location: "Makeni, Sierra Leone",
+  location: "Freetown, Sierra Leone",
   github: "https://www.github.com/dominicOT",
   linkedin: "https://www.linkedin.com/in/dominic-oladapo-tonade-6605b2209/",
 };
@@ -37,8 +37,8 @@ const workExperience = [
   {
     role: "Tech Director",
     company: "Dazzling Orbit Ltd Gte",
-    period: "Jan 2022 - Jan 2025",
-    type: "Remote",
+    period: "Jan 2022 - Present",
+    type: "Full-time / Remote",
   },
   {
     role: "Coding Tutor",
@@ -91,7 +91,6 @@ const education = [
 const academicQualifications = [
   { text: "Artificial Intelligence (Certificate)", school: "Harvard University Online", status: "In Progress" },
   { text: "Bachelor of Science - Computer Science (Degree)", school: "University of Makeni", status: "2025" },
-  { text: "C Programming Language (Diploma)", school: "University of Makeni", status: "In Progress" },
   { text: "Secondary School Certificate (SSCE)", school: "Christ Victory College", status: "2020" },
   { text: "Primary School Leaving Certificate", school: "Grace Bible Mission", status: "2014" },
 ];
@@ -115,6 +114,10 @@ const referees = [
   {
     name: "Mrs. Kemi Oladapo-Tonade",
     title: "Chief Executive Officer, Dazzling Orbit Ltd. GTE., SL",
+  },
+  {
+    name: "Mr. Ibrahim Kalokoh",
+    title: "Head of Department, Computer Science Department, University of Makeni",
   }
 ];
 
