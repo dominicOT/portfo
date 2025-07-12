@@ -63,7 +63,8 @@ const skills = [
 const projects = {
   blockchain: [
     { name: "PassRaydSwapr", url: "https://passraydswapr.vercel.app/", description: "Passkey Raydium Swapper (using LazorKit)", github: "https://github.com/justanthruser/passkey-raydium-swapper" },
-    { name: "", url: "#", description: "" },
+    { name: "RUGGUARD", url: "https://github.com/dominicOT/RugGuardBotProject", description: "An intelligent Twitter bot that analyzes the trustworthiness of Solana project accounts" },
+    { name: "Web3 Authd App Starter", url: "https://web3-authd-app-starter.vercel.app/", description: "A simulation of the civic Auth and starter template for building web3 applications with Authd" },
   ],
   ai: [
     { name: "Adrit", url: "https://adrit.dorbai.com", description: "An AI-powered application." },
@@ -187,10 +188,11 @@ export default function PortfolioPage() {
             <section id="projects">
               <h2 className="text-3xl font-headline font-bold mb-6 text-primary">Projects</h2>
               <Tabs defaultValue="websites" className="w-full">
-                <TabsList className="grid w-full grid-cols-3">
+                <TabsList className="grid w-full grid-cols-4">
                   <TabsTrigger value="websites">Websites</TabsTrigger>
                   <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
                   <TabsTrigger value="ai">AI Projects</TabsTrigger>
+                  <TabsTrigger value="blockchain">Blockchain Projects</TabsTrigger>
                 </TabsList>
                 <TabsContent value="websites" className="mt-4">
                   <div className="grid sm:grid-cols-2 gap-4">
