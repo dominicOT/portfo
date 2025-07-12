@@ -56,8 +56,8 @@ const workExperience = [
 
 const skills = [
   "JavaScript", "TypeScript", "React Native", "HTML", "TailwindCSS", "Python", 
-  "Next.js", "Git", "Firebase", "Expo", "Google Workspaces", "GitHub", 
-  "VSCode", "Project IDX", "Insomnia", "MongoDB", "MIT App Inventor", "API Integrations"
+  "Next.js", "Git", "Firebase", "Google Cloud", "Expo", "Google Workspaces", "GitHub", 
+  "VSCode", "Project IDX", "Insomnia", "MongoDB", "MIT App Inventor", "API Integrations",
 ];
 
 const projects = {
