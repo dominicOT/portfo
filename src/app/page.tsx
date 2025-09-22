@@ -70,13 +70,17 @@ const projects = {
     { name: "Adrit", url: "https://adrit.dorbai.com", description: "An AI-powered application." },
     { name: "WasteWise", url: "#", description: "AI-driven solution for waste management." },
     { name: "Perplexity-ai", url: "https://github.com/helallao/perplexity-ai", description: "Unofficial API Wrapper for Perplexity.ai + Account Generator." },
+    { name: "Zeus", url: "#", description: "A WhatsApp based AI powered financial transaction and payment system." },
   ],
   mobile: [
     { name: "WasteWise", url: "#", description: "A mobile application promoting smart recycling and waste tracking." },
     { name: "OltraPay", url: "#", description: "A secure and user-friendly mobile payment platform." },
     { name: "TWU", url: "#", description: "A mobile app for the Transport Workers Union, Sierra Leone." },
   ],
-  websites: [
+  web: [
+    { name: "DORB AI", url: "https://dorbai.com/", description: "Official website for DORB AI." },
+    { name: "Lifeblood SL", url: "https://lifebloodsl.vercel.app/", description: "A Safe Blood Information Management System." },  
+    {name: "Sierra Leone Public Transport Authority", url: "https://www.slptdims.com/", description: "Official dashboard and management system for the Sierra Leone Public Transport Authority." },
     { name: "SUN SL", url: "https://www.sun.ovp.gov.sl/", description: "Official website for the Scaling Up Nutrition initiative in Sierra Leone." },
     { name: "Dazzling Orbit", url: "https://dorbsl-ltd.vercel.app/", description: "Corporate website for Dazzling Orbit Ltd." },
     { name: "RCCG SL", url: "https://rccgsl.vercel.app/", description: "Website for the Redeemed Christian Church of God, Sierra Leone." },
@@ -189,16 +193,16 @@ export default function PortfolioPage() {
             {/* Projects */}
             <section id="projects">
               <h2 className="text-3xl font-headline font-bold mb-6 text-primary">Projects</h2>
-              <Tabs defaultValue="websites" className="w-full">
+              <Tabs defaultValue="web" className="w-full">
                 <TabsList className="grid w-full grid-cols-4">
-                  <TabsTrigger value="websites">Websites</TabsTrigger>
+                  <TabsTrigger value="web">Web</TabsTrigger>
                   <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
                   <TabsTrigger value="ai">AI Projects</TabsTrigger>
                   <TabsTrigger value="blockchain">Blockchain Projects</TabsTrigger>
                 </TabsList>
-                <TabsContent value="websites" className="mt-4">
+                <TabsContent value="web" className="mt-4">
                   <div className="grid sm:grid-cols-2 gap-4">
-                    {projects.websites.map(p => <ProjectCard key={p.name} {...p} />)}
+                    {projects.web.map(p => <ProjectCard key={p.name} {...p} />)}
                   </div>
                 </TabsContent>
                 <TabsContent value="mobile" className="mt-4">
