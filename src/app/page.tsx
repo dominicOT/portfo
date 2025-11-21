@@ -80,7 +80,6 @@ const projects = {
   web: [
     { name: "DORB AI", url: "https://dorbai.com/", description: "Official website for DORB AI." },
     { name: "Lifeblood SL", url: "https://lifebloodsl.vercel.app/", description: "A Safe Blood Information Management System." },  
-    {name: "Sierra Leone Public Transport Authority", url: "https://www.slptdims.com/", description: "Official dashboard and management system for the Sierra Leone Public Transport Authority." },
     { name: "SUN SL", url: "https://www.sun.ovp.gov.sl/", description: "Official website for the Scaling Up Nutrition initiative in Sierra Leone." },
     { name: "Dazzling Orbit", url: "https://dorbsl-ltd.vercel.app/", description: "Corporate website for Dazzling Orbit Ltd." },
     { name: "RCCG SL", url: "https://rccgsl.vercel.app/", description: "Website for the Redeemed Christian Church of God, Sierra Leone." },
