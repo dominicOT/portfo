@@ -196,10 +196,10 @@ export default function PortfolioPage() {
               <h2 className="text-3xl font-headline font-bold mb-6 text-primary">Projects</h2>
               <Tabs defaultValue="web" className="w-full">
                 <TabsList className="grid w-full grid-cols-4">
-                  <TabsTrigger value="web">Web</TabsTrigger>
-                  <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
                   <TabsTrigger value="ai">AI Projects</TabsTrigger>
                   <TabsTrigger value="blockchain">Blockchain Projects</TabsTrigger>
+                  <TabsTrigger value="web">Web</TabsTrigger>
+                  <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
                 </TabsList>
                 <TabsContent value="web" className="mt-4">
                   <div className="grid sm:grid-cols-2 gap-4">
