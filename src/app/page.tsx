@@ -55,9 +55,9 @@ const workExperience = [
 ];
 
 const skills = [
-  "JavaScript", "TypeScript", "React Native", "HTML", "TailwindCSS", "Python", 
-  "Next.js", "Git", "Firebase", "Google Cloud", "Expo", "Google Workspaces", "GitHub", 
-  "VSCode", "Project IDX", "Insomnia", "MongoDB", "MIT App Inventor", "API Integrations",
+  "JavaScript", "TypeScript", "React Native", "Python", "Vertex AI",
+  "Next.js", "Git", "Firebase", "Google Cloud Platform", "Expo", "Google Workspaces", "GitHub", 
+  "Insomnia", "MongoDB", "MIT App Inventor",
 ];
 
 const projects = {
@@ -67,7 +67,9 @@ const projects = {
     { name: "Web3 Authd App Starter", url: "https://web3-authd-app-starter.vercel.app/", description: "A simulation of the civic Auth and starter template for building web3 applications with Authd" },
   ],
   ai: [
+    { name: "Edommen", url: "https://huggingface.co/dominicOT/edommen", description: "A Krio-English Translation Model. \nbase_model - facebook/mbart-large-50. \nDataset - https://huggingface.co/datasets/michsethowusu/english-krio_sentence-pairs_mt560" },
     { name: "Adrit", url: "https://adrit.dorbai.com", description: "An AI-powered application." },
+    { name: "Adrit on WA", url: "https://wa.me/+23288452574?text=Hello%20Adrit%20%F0%9F%98%81%F0%9F%91%8B!", description: "An AI-powered WhatsApp-based assistant." },
     { name: "WasteWise", url: "#", description: "AI-driven solution for waste management." },
     { name: "Perplexity-ai", url: "https://github.com/helallao/perplexity-ai", description: "Unofficial API Wrapper for Perplexity.ai + Account Generator." },
     { name: "Zeus", url: "#", description: "A WhatsApp based AI powered financial transaction and payment system." },
