@@ -17,8 +17,8 @@ const contact = {
 
 const workExperience = [
   {
-    role: "Software Engineer",
-    company: "Smart Systems (SL) Limited",
+    role: "Hardcore Software Engineer",
+    company: "Freelance",
     period: "June 2025 - Present",
     type: "Full-time / Remote",
   },
@@ -57,7 +57,7 @@ const workExperience = [
 const skills = [
   "JavaScript", "TypeScript", "React Native", "Python", "Vertex AI",
   "Next.js", "Git", "Firebase", "Google Cloud Platform", "Expo", "Google Workspaces", "GitHub", 
-  "Insomnia", "MongoDB", "MIT App Inventor",
+  "Scalable Architecture", "Insomnia", "MongoDB", "MIT App Inventor",
 ];
 
 const projects = {
@@ -72,16 +72,19 @@ const projects = {
     { name: "Adrit on WA", url: "https://wa.me/+23288452574?text=Hello%20Adrit%20%F0%9F%98%81%F0%9F%91%8B!", description: "An AI-powered WhatsApp-based assistant." },
     { name: "WasteWise", url: "#", description: "AI-driven solution for waste management." },
     { name: "Perplexity-ai", url: "https://github.com/helallao/perplexity-ai", description: "Unofficial API Wrapper for Perplexity.ai + Account Generator." },
-    { name: "Zeus", url: "#", description: "A WhatsApp based AI powered financial transaction and payment system." },
+    { name: "Zeus", url: "#", description: "A WhatsApp based AI powered financial transaction, payment and card management system." },
   ],
   mobile: [
     { name: "WasteWise", url: "#", description: "A mobile application promoting smart recycling and waste tracking." },
     { name: "OltraPay", url: "#", description: "A secure and user-friendly mobile payment platform." },
-    { name: "TWU", url: "#", description: "A mobile app for the Transport Workers Union, Sierra Leone." },
+    { name: "TWUIMS", url: "#", description: "A mobile app for the Transport Workers Union, Sierra Leone." },
   ],
   web: [
+    { name: "EWRC IMS", url: "#", description: "Official Management System for the EWRC." },
+    { name: "SLPTD-IMS", url: "#", description: "Official Management for the SLPTA." },
+    { name: "Syncora", url: "https://synncora.vercel.app", description: "Official website for Syncora." },
     { name: "DORB AI", url: "https://dorbai.com/", description: "Official website for DORB AI." },
-    { name: "Lifeblood SL", url: "https://lifebloodsl.vercel.app/", description: "A Safe Blood Information Management System." },  
+    { name: "Lifeblood SL", url: "https://lifebloodglobal.com/", description: "A Safe Blood Information Management System." },  
     { name: "SUN SL", url: "https://www.sun.ovp.gov.sl/", description: "Official website for the Scaling Up Nutrition initiative in Sierra Leone." },
     { name: "Dazzling Orbit", url: "https://dorbsl-ltd.vercel.app/", description: "Corporate website for Dazzling Orbit Ltd." },
     { name: "RCCG SL", url: "https://rccgsl.vercel.app/", description: "Website for the Redeemed Christian Church of God, Sierra Leone." },
@@ -100,7 +103,7 @@ const education = [
 ];
 
 const academicQualifications = [
-  { text: "Artificial Intelligence (Certificate)", school: "Harvard University Online", status: "In Progress" },
+  { text: "Artificial Intelligence (Advanced Certificate)", school: "Harvard University Online", status: "2026" },
   { text: "Bachelor of Science - Computer Science (Degree)", school: "University of Makeni", status: "2025" },
   { text: "Secondary School Certificate (SSCE)", school: "Christ Victory College", status: "2020" },
   { text: "Primary School Leaving Certificate", school: "Grace Bible Mission", status: "2014" },
@@ -194,11 +197,11 @@ export default function PortfolioPage() {
             {/* Projects */}
             <section id="projects">
               <h2 className="text-3xl font-headline font-bold mb-6 text-primary">Projects</h2>
-              <Tabs defaultValue="web" className="w-full">
+              <Tabs defaultValue="ai" className="w-full">
                 <TabsList className="grid w-full grid-cols-4">
                   <TabsTrigger value="ai">AI Projects</TabsTrigger>
-                  <TabsTrigger value="blockchain">Blockchain Projects</TabsTrigger>
                   <TabsTrigger value="web">Web</TabsTrigger>
+                  <TabsTrigger value="blockchain">Blockchain Projects</TabsTrigger>
                   <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
                 </TabsList>
                 <TabsContent value="web" className="mt-4">
