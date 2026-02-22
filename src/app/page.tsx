@@ -80,6 +80,7 @@ const projects = {
     { name: "TWUIMS", url: "#", description: "A mobile app for the Transport Workers Union, Sierra Leone." },
   ],
   web: [
+    { name: "XLumiere", url: "https://xlumiere.vercel.app/", description: "Official XLumiere Website." },
     { name: "EWRC IMS", url: "#", description: "Official Management System for the EWRC." },
     { name: "SMEDA", url: "https://smeda.vercel.app/", description: "Unofficial Official Management System for SMEDA." },
     { name: "SLPTD-IMS", url: "#", description: "Official Management for the SLPTA." },
