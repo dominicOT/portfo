@@ -81,6 +81,7 @@ const projects = {
   ],
   web: [
     { name: "EWRC IMS", url: "#", description: "Official Management System for the EWRC." },
+    { name: "SMEDA", url: "https://smeda.vercel.app/", description: "Unofficial Official Management System for SMEDA." },
     { name: "SLPTD-IMS", url: "#", description: "Official Management for the SLPTA." },
     { name: "Syncora", url: "https://synncora.vercel.app", description: "Official website for Syncora." },
     { name: "DORB AI", url: "https://dorbai.com/", description: "Official website for DORB AI." },
