@@ -6,7 +6,7 @@ import { Link as LinkIcon, Calendar, Users } from "lucide-react"
 const articles = [
   {
     title: "The Technical Integration of Scan-to-Pay Architectures in Freetown’s Urban Mobility Sector: A Comprehensive Case Study of Public-Commercial Transport Modernization",
-    date: "2024",
+    date: "2026",
     link: "https://integration-of-scan-to-pay-system-i.vercel.app/",
     description: "A comprehensive case study on the technical integration of scan-to-pay architectures in Freetown’s urban mobility sector.",
     collaborators: []
