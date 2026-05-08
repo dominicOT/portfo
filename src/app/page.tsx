@@ -228,6 +228,15 @@ export default function PortfolioPage() {
                 </TabsContent>
               </Tabs>
             </section>
+            
+            {/* Research & Articles */}
+            <section id="research">
+              <h2 className="text-3xl font-headline font-bold mb-6 text-primary">Research & Articles</h2>
+              <p className="text-muted-foreground mb-4">Explore my published research and articles on AI, blockchain, and software engineering.</p>
+              <Button asChild>
+                <a href="/research">View Research & Articles</a>
+              </Button>
+            </section>
           </div>
           
           {/* Right Column */}
