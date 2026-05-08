@@ -5,34 +5,12 @@ import { Link as LinkIcon, Calendar, Users } from "lucide-react"
 
 const articles = [
   {
-    title: "Edommen: A Krio-English Translation Model",
+    title: "The Technical Integration of Scan-to-Pay Architectures in Freetown’s Urban Mobility Sector: A Comprehensive Case Study of Public-Commercial Transport Modernization",
     date: "2024",
-    link: "https://huggingface.co/dominicOT/edommen",
-    description: "A machine translation model for Krio-English language pairs, based on Facebook's mBART-large-50.",
+    link: "https://integration-of-scan-to-pay-system-i.vercel.app/",
+    description: "A comprehensive case study on the technical integration of scan-to-pay architectures in Freetown’s urban mobility sector.",
     collaborators: []
   },
-  {
-    title: "Intelligent Twitter Bot for Solana Project Analysis",
-    date: "2023",
-    link: "https://github.com/dominicOT/RugGuardBotProject",
-    description: "An AI-powered bot that evaluates the trustworthiness of Solana blockchain project accounts on Twitter.",
-    collaborators: ["Collaborator Name 1"]
-  },
-  {
-    title: "Web3 Authentication Starter Template",
-    date: "2023",
-    link: "https://web3-authd-app-starter.vercel.app/",
-    description: "A simulation and starter template for building Web3 applications with Civic Auth.",
-    collaborators: []
-  },
-  {
-    title: "Unofficial Perplexity.ai API Wrapper",
-    date: "2023",
-    link: "https://github.com/helallao/perplexity-ai",
-    description: "An API wrapper for Perplexity.ai with account generation capabilities.",
-    collaborators: ["helallao"]
-  },
-  // Add more articles as needed
 ];
 
 export default function ResearchPage() {
@@ -40,7 +18,7 @@ export default function ResearchPage() {
     <div className="bg-background text-foreground font-body antialiased">
       <main className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <h1 className="text-4xl md:text-5xl font-headline font-extrabold text-primary tracking-tight mb-8">Research & Articles</h1>
-        <p className="text-xl text-muted-foreground mb-12">A collection of my published research, articles, and technical writings in AI, blockchain, and software development.</p>
+        <p className="text-xl text-muted-foreground mb-12">A collection of my published research, articles, and technical writings in software development.</p>
         
         <div className="grid gap-6">
           {articles.map((article, index) => (
