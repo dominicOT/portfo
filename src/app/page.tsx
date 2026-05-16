@@ -19,37 +19,36 @@ const workExperience = [
   {
     role: "Hardcore Software Engineer",
     company: "Freelance",
-    period: "June 2025 - Present",
+    type: "Full-time / Remote",
+  },
+  {
+    role: "Software Engineer",
+    company: "Smart Systems",
     type: "Full-time / Remote",
   },
   {
     role: "Software / AI Engineer",
     company: "AUTOHEALTH SL (LTD)",
-    period: "Mar 2025 - May 2025",
     type: "Contract / On-site",
   },
   {
     role: "Operations Manager",
     company: "UniMak Workflow Innovation Hub",
-    period: "Sept 2023 - Dec 2024",
     type: "Internship / On-site",
   },
   {
     role: "Tech Director",
     company: "Dazzling Orbit Ltd Gte",
-    period: "Jan 2022 - Present",
     type: "Full-time / Remote",
   },
   {
     role: "Coding Tutor",
     company: "Readland Global",
-    period: "July 2022 - Aug 2023",
     type: "Contract / Remote",
   },
   {
     role: "Enumerator for Evaluation",
     company: "Ascendant & Company Ltd",
-    period: "March 2021 - March 2023",
     type: "Contract / On-site",
   },
 ];
@@ -185,7 +184,7 @@ export default function PortfolioPage() {
                     <Card>
                       <CardHeader>
                         <CardTitle>{job.role}</CardTitle>
-                        <CardDescription>{job.company} &bull; {job.period}</CardDescription>
+                        {/* <CardDescription>{job.company} &bull; {job.period}</CardDescription> */}
                       </CardHeader>
                       <CardContent>
                         <Badge variant="secondary">{job.type}</Badge>
